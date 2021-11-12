@@ -1,1 +1,17 @@
-/* Write your CSS here! */
+#mainHeading{
+    color:red
+}
+
+body {
+    margin: 8px;
+    max-width: 1252px;
+    padding: 50px;
+    align-content: center; 
+    display:block;
+    background-color: rgb(184, 184, 184);
+    font: "Monaco";
+}
+
+p{
+    padding: 10px;
+}
