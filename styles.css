@@ -1,17 +1,58 @@
-#mainHeading{
-    color:red
+.content{
+    margin: 0 auto;
+    max-width: 1252px; 
+    background-color: rgb(184, 184, 184);
 }
 
 body {
     margin: 8px;
-    max-width: 1252px;
     padding: 50px;
-    align-content: center; 
     display:block;
-    background-color: rgb(184, 184, 184);
-    font: "Monaco";
+    font-family: "Monaco", sans-serif;
 }
 
 p{
     padding: 10px;
+    font-size: 15px;
+}
+
+#mainHeading{
+    color:red;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+}
+
+h2{
+    font-family: 'Courier New', monospace;
+    font-size:30px;
+}
+
+h3{
+    font-size:25px;
+}
+
+h4{
+    font-size:20px;
+}
+
+figure{
+    margin:auto;
+    max-width: 900px;
+    padding: 10px;
+}
+
+figcaption{
+    font-size:12px;
+    font-style:italic;
+    text-align: center;
+}
+
+.funParagraph{
+    color:green;
+}
+
+footer{
+    font-size:12px;
+    font-style:italic;
+    text-align: center;
 }
