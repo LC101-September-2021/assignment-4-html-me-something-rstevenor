@@ -1,14 +1,48 @@
-.content{
-    margin: 0 auto;
+.innerWrapper{
+    margin-top: -18px;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1252px; 
-    background-color: rgb(184, 184, 184);
+    background-color: #b1b0b0;
 }
 
 body {
     margin: 8px;
-    padding: 50px;
     display:block;
     font-family: "Monaco", sans-serif;
+    background-color: #272727;
+}
+
+main{
+    padding-bottom:50px;
+}
+header{
+	padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navigationBar{
+    text-align:center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+
+
+}
+
+article{
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 p{
@@ -16,10 +50,15 @@ p{
     font-size: 15px;
 }
 
+img{
+    width:100%;
+}
+
 #mainHeading{
     color:red;
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 45px;
+    text-align: center;
 }
 
 h2{
@@ -49,10 +88,16 @@ figcaption{
 
 .funParagraph{
     color:green;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
 }
 
 footer{
     font-size:12px;
     font-style:italic;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1252px; 
+    background-color: rgb(184, 184, 184)
 }
