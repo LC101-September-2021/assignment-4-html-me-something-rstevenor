@@ -10,7 +10,7 @@ body {
     margin: 8px;
     display:block;
     font-family: "Monaco", sans-serif;
-    background-color: #272727;
+    border-color: #272727;
 }
 
 main{
