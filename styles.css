@@ -31,7 +31,7 @@ header{
     
 }
 
-#button{
+.button{
     border: none;
     color: white;
     padding: 15px 32px;
@@ -53,6 +53,7 @@ p{
 
 img{
     width:100%;
+    border: 5px solid #272727;
 }
 
 #mainHeading{
@@ -60,7 +61,7 @@ img{
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 45px;
     text-align: right;
-    background-color: #121212;
+    background-color: rgb(66, 66, 66);
     padding:10px;
    padding-right:20px;
     width: 116%;
@@ -70,19 +71,50 @@ img{
 h2{
     font-family: 'Courier New', monospace;
     font-size:30px;
+    text-align:center;
+    padding: 16px;
+    background-color: rgb(102, 102, 102);
+    width:115%;
+    margin-left: -150px;
+    color:white;
+    
 }
 
 h3{
     font-size:25px;
+    text-transform: uppercase;
+    padding:8px;
+    width:110%;
+    color:white;
+    background-color:rgb(209, 83, 83);
+}
+
+#millikin{
+    background-color:#395775;
+    font-family: 'Tahoma Bold', sans-serif;
+}
+
+.umsl{
+    background-color: #981e32;
+}
+
+#parttime{
+    background-color: #767E3A;
+}
+
+#fulltime{
+    background-color: #0a548b;
 }
 
 h4{
     font-size:20px;
+    padding:8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 figure{
     margin:auto;
-    max-width: 900px;
+    max-width: 1000px;
     padding: 10px;
 }
 
@@ -92,8 +124,10 @@ figcaption{
     text-align: center;
 }
 
+
+
 .funParagraph{
-    color:rgb(0, 128, 0);
+    color:green;
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black;
 }
