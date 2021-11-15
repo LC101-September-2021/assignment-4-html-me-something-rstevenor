@@ -16,13 +16,18 @@ main{
 
 header{
 	padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
     margin-top: -18px;
     margin-left: auto;
     margin-right: auto;
     max-width: 1252px; 
     background-color: #b1b0b0;
+}
+
+.headerp{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15px;
+    display:block;
 }
 
 .navigationBar{
@@ -66,8 +71,8 @@ img{
     text-align: right;
     background-color: rgb(66, 66, 66);
     padding:10px;
-   padding-right:20px;
-    width: 116%;
+    padding-right:100px;
+    width: 110%;
     margin-left: -155px;
 }
 
@@ -133,6 +138,9 @@ figcaption{
     color:green;
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black;
+    size:12px;
+    text-align: center;
+    font-style: italic;
 }
 
 footer{
@@ -143,4 +151,5 @@ footer{
     margin-right: auto;
     max-width: 1252px; 
     background-color: rgb(184, 184, 184);
+    display:block;
 }
